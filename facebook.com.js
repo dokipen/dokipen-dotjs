@@ -2,7 +2,10 @@ try {
   $('body').append('<div style="position:fixed;top:10px;left:10px;width:90px;height:30px;background-color:black;font-size:28px;padding:10px"><a id="censor" href="#" style="color:white">Censor</a></div>')
   $('#censor').click(function() {
     $('.actorName a, .uiAttachmentDetails a, .uiStreamMessage a, .UIImageBlock_Content a').each(function() {
-      if (!$(this).text().match(/(status|Wall|others)/)) {
+      console.log($(this).text())
+      if ($(this).text().match(/Margaret.Groves.Corsaro/)) {
+        $(this).text("My Mom")
+      } else if (!$(this).text().match(/(status|Wall|others|My.Mom)/)) {
         $(this).css({color: 'black', 'background-color': 'black'})
       }
     })
