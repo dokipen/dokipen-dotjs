@@ -1,1 +1,10 @@
 $('.tree-browser').css('font-family', 'Droid Sans Mono')
+$('.line').css('font-family', 'Droid Sans Mono')
+$('.line_numbers').css('font-family', 'Droid Sans Mono')
+$('.info').css('font-family', 'Droid Sans Mono')
+$('.message pre,code').css('font-family', 'Droid Sans Mono')
+$('div.machine').css('font-family', 'Droid Sans Mono')
+$('.url-field').css('font-family', 'Droid Sans Mono')
+$('.stats span').css('font-family', 'Droid Sans')
+$('#readme').css('font-family', 'Droid Sans')
+
